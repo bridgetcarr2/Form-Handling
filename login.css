@@ -1,0 +1,52 @@
+body{
+    background-color: light purple;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+form{
+    posiotn: absolute;
+    top: 10%;
+    background-color: aquamarine;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 350px;
+}
+
+form input{
+    display: block;
+    border: 2px solid black;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+#errorMessage{
+    color:red;
+}
+
+button{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 800;
+    background-color: orange;
+    color: white;
+}
+
+header{
+    text-align: center;
+    top: 1%;
+    position:absolute;
+    text-shadow: 0cqmax;
+    color: blueviolet;
+}
+
+footer{
+    text-align: center;
+    bottom: 380px;
+    position: absolute;
+    color:blueviolet;
+    text-shadow:0cqmax;
+}
